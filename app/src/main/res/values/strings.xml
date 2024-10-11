@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">CupcakeMaker</string>
+
+    <string name="back_button">Atrás</string>
+
+    <!-- StartOrderScreen-->
+    <string name="order_cupcakes">Ordenar Cupcakes</string>
+    <string name="sample_cupcake">Cupcake de muestra</string>
+    <string name="cupcake_price">Precio por cupcake $ %s</string>
+
+    <!-- DataSource-->
+    <string name="vanilla">Vainilla</string>
+    <string name="chocolate">Chocolate</string>
+    <string name="red_velvet">Chocolate Rojo</string>
+    <string name="salted_caramel">Caramelo con Sal</string>
+    <string name="coffee">Café</string>
+    <string name="cupcake_tag">cupcake(s)</string>
+
+
+</resources>
