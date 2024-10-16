@@ -14,6 +14,7 @@ object DataSource {
     val quantityOptions = listOf(
         Pair(R.string.cupcake_tag, 1),
         Pair(R.string.cupcake_tag, 6),
-        Pair(R.string.cupcake_tag, 12)
+        Pair(R.string.cupcake_tag, 12),
+        Pair(R.string.cupcake_tag, 18)
     )
 }
