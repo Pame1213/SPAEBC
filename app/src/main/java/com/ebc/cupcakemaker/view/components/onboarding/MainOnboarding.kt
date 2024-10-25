@@ -45,9 +45,9 @@ fun MainOnboarding(navController: NavController) {
 
     items.add(
         OnboardingData(
-            R.raw.page1,
-            "¡Hola!",
-            "Que alegría verte por aquí, en All Around Cake Maker, la mejor pastelería de la ciudad."
+            image = R.raw.page1,
+            title = "¡Hola!",
+            desc = "Que alegría verte por aquí, en All Around Cake Maker, la mejor pastelería de la ciudad."
         )
     )
 
@@ -128,7 +128,7 @@ fun MainOnboarding(navController: NavController) {
                     modifier = Modifier
                         .padding(5.dp)
                         .height(10.dp)
-                        .width(25.dp) // 10 circulo
+                        .width(30.dp) // 10 circulo
                         .clip(CircleShape)
                         .background(if (it == pagerState.currentPage) Color.Red else Color.Gray)
                 )

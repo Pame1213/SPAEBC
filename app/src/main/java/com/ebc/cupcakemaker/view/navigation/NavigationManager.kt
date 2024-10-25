@@ -68,16 +68,16 @@ fun NavigationManager(cupcakeMakerViewModel: CupcakeMakerViewModel) {
     ) {
         NavHost(
             navController = navController,
-            startDestination = ViewIDs.Start.id,
+            startDestination = ViewIDs.Splash.id,
             modifier = Modifier
                 .fillMaxSize()
                 .padding(it)
         ) {
             composable(ViewIDs.Splash.id) {
-                //SplashScreen(navController)
+                SplashScreen(navController)
             }
             composable(ViewIDs.Home.id) {
-                //MainOnboarding(navController)
+                MainOnboarding(navController)
             }
             composable(ViewIDs.Start.id) {
                 StartOrderScreen(navController, cupcakeMakerViewModel)
